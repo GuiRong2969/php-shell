@@ -1,0 +1,33 @@
+{
+  "name": "guirong/php-shell",
+  "type": "library",
+  "description": "an simple event, listener library of the php",
+  "keywords": [
+    "php-event",
+    "event",
+    "listener"
+  ],
+  "homepage": "https://github.com/GuiRong2969/php-shell",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rong Gui",
+      "email": "15168272969@163.com",
+      "homepage": "https://github.com/GuiRong2969/php-shell"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "psy/psysh": "^0.11.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "Guirong\\Shell\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Guirong\\Shell\\Test\\": "test/"
+    }
+  }
+}
